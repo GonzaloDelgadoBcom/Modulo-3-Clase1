@@ -1,0 +1,51 @@
+* {
+    font-family: Roboto;
+    color: black;
+}
+
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    background-color:gold;
+    border: #7f8c9b;
+}
+
+img {
+    width: 90%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+    justify-content: center;
+  }
+
+h6 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+  
+    font-weight: 600;
+    color: green;
+    background-color: #e6ffe0;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+  }
+
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
+}
